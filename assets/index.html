@@ -7,9 +7,7 @@
   <title>Mogo Creative Template</title>
 
   <!-- Bootstrap -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
   <!-- Font Awesome -->
   <script src="https://use.fontawesome.com/e6766dee8a.js"></script>
@@ -231,17 +229,17 @@
         </div>
 
         <!-- Accordion Menu -->
-        <div class="col-md-6 panel-group" id="accordion">
+        <div class="col-md-6 panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div class="panel-heading" role="tab" id="heading1">
               <img src="img/icons/gallery.png" alt="photo icon">
               <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#photography">
+                <a data-toggle="collapse" data-parent="#accordion" href="#photography" aria-expanded="true" aria-controls="photography">
                   Photography</a>
               </h4>
             </div>
-            <div id="photography" class="collapse show" role="tabpanel">
+            <div id="photography" class="collapse show" role="tabpanel" aria-labelledby="heading1">
               <div class="panel-body">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 Autem ipsum quaerat assumenda ullam consectetur, eius nam 
@@ -299,6 +297,14 @@
   <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script 
+  src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" 
+  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" 
+  crossorigin="anonymous"></script>
+  <script 
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" 
+  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" 
   crossorigin="anonymous"></script>
 </body>
 </html>
