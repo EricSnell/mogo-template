@@ -101,6 +101,47 @@ header.page-header {
   .section-links li:last-child a {
     margin-right: 0; }
 
+.about-link-container,
+.about-img,
+.about-overlay {
+  max-height: 240px;
+  max-width: 370px; }
+
+.about-link-container {
+  background-color: #95e1d3;
+  margin: 0 auto;
+  padding: 0;
+  color: #fff; }
+
+.about-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out; }
+  .about-img .about-overlay {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .about-img .about-overlay h3 {
+      font-size: 18px;
+      margin-top: 10px; }
+  .about-img:hover {
+    top: -10px;
+    left: -10px; }
+    .about-img:hover .about-overlay {
+      opacity: 1;
+      cursor: pointer; }
+
 .section-heading {
   text-align: center;
   margin-top: 80px; }
@@ -117,5 +158,12 @@ header.page-header {
   width: 80%;
   margin: 0 auto 88px;
   text-align: center; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 

@@ -1,3 +1,47 @@
-.about-us
-  
+
+.about-link-container,
+.about-img,
+.about-overlay
+  max-height: 240px
+  max-width: 370px
+
+.about-link-container
+  background-color: $brand-turquoise
+  margin: 0 auto
+  padding: 0
+  color: #fff
+
+.about-img
+  position: relative
+  top: 0
+  left: 0
+  overflow: hidden
+  transition: all 0.2s ease-in-out
+
+  .about-overlay
+    text-align: center
+    font-family: $montserrat
+    font-weight: bold
+    text-transform: uppercase
+    opacity: 0.5
+    height: 100%
+    width: 100%
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+
+    h3
+      font-size: 18px
+      margin-top: 10px
+
+  &:hover
+    top: -10px
+    left: -10px
+
+    .about-overlay
+      opacity: 1
+      cursor: pointer
+
     
