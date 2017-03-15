@@ -101,15 +101,6 @@ header.page-header {
   .section-links li:last-child a {
     margin-right: 0; }
 
-.about-us {
-  margin-bottom: 110px; }
-
-.fixed-container,
-.images-container,
-.overlay {
-  max-width: 370px;
-  max-height: 240px; }
-
 .section-heading {
   text-align: center;
   margin-top: 80px; }
@@ -133,6 +124,33 @@ header.page-header {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
+
+.about-us {
+  margin-bottom: 110px; }
+
+.fixed-container,
+.images-container,
+.overlay {
+  max-width: 370px;
+  max-height: 240px; }
+
+.stats {
+  background-color: #95e1d3;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  text-align: center; }
+  .stats .stat {
+    height: 260px;
+    padding: 0;
+    border-right: 1px solid #b5eae0; }
+    .stats .stat .counter {
+      font-weight: bold;
+      font-size: 70px;
+      position: relative;
+      top: -10px;
+      margin-bottom: 0; }
+  .stats .stat:last-child {
+    border-right: none; }
 
 .fixed-container {
   background-color: #95e1d3;
