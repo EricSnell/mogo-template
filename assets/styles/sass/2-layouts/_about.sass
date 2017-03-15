@@ -6,53 +6,9 @@
 .fixed-container,
 .images-container,
 .overlay
-  max-height: 240px
-  max-width: 370px
+  +dimensions( 370px, 240px )
 
-.fixed-container
-  background-color: $brand-turquoise
-  margin: 0 auto
-  padding: 0
-  color: #fff
 
-.images-container
-  position: relative
-  top: 0
-  left: 0
-  overflow: hidden
-  transition: all 0.2s ease-in-out
 
-  .overlay
-    text-align: center
-    font-family: $montserrat
-    font-weight: bold
-    text-transform: uppercase
-    opacity: 0
-    height: 100%
-    width: 100%
-    position: absolute
-    top: 0
-    bottom: 0
-    left: 0
-    right: 0
-    
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#db7574+0,e3cd7c+100 */
-    background: #db7574
-    background: linear-gradient(to bottom, #db7574 0%,#e3cd7c 100%)
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db7574', endColorstr='#e3cd7c',GradientType=0 ) // IE6-9
-    
-    transition: all 0.2s ease-in-out
 
-    h3
-      font-size: 18px
-      margin-top: 10px
 
-  &:hover
-    top: -10px
-    left: -10px
-
-    .overlay
-      opacity: 0.9
-      cursor: pointer
-
-    

@@ -1,0 +1,48 @@
+.fixed-container
+  background-color: $brand-turquoise
+  color: #fff
+
+
+.images-container
+  position: relative
+  top: 0
+  left: 0
+  overflow: hidden
+  transition: all 0.2s ease-in-out
+
+  .overlay
+    text-align: center
+    font-family: $montserrat
+    opacity: 0
+    height: 100%
+    width: 100%
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#db7574+0,e3cd7c+100 */
+    background: #db7574
+    background: linear-gradient(to bottom, rgba(219, 117, 116, 0.9), rgba(227, 205, 124, 0.9))
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db7574', endColorstr='#e3cd7c',GradientType=0 ) // IE6-9
+    
+    transition: all 0.2s ease-in-out
+
+    h3
+      font-size: 18px
+      font-weight: 500
+      margin-top: 10px
+      text-transform: uppercase
+
+  &:hover
+    top: -10px
+    left: -10px
+
+    .overlay
+      opacity: 1
+      cursor: pointer
+    
+
+
+    
