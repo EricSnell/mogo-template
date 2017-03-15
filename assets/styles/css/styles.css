@@ -1,0 +1,70 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  text-transform: uppercase; }
+  a:hover {
+    text-decoration: none; }
+
+header.page-header {
+  height: 1000px;
+  color: #fff;
+  background: url("../../img/bg/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.nav-logo {
+  font-size: 30px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin-top: 25px;
+  float: left; }
+
+nav {
+  height: 100px;
+  margin-bottom: 135px; }
+  nav .links {
+    overflow: auto;
+    float: right;
+    margin-top: 38px; }
+    nav .links li {
+      float: left; }
+  nav .nav-link,
+  nav .nav-icon {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 0 10px 0;
+    margin-right: 50px; }
+    nav .nav-link:hover,
+    nav .nav-icon:hover {
+      color: #fce38a; }
+  nav .nav-link:hover {
+    border-bottom: 3px solid #fce38a; }
+
+.welcome-text span {
+  font-family: "Kaushan Script", cursive;
+  font-size: 72px; }
+.welcome-text h1 {
+  margin: 33px 0 72px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 150px;
+  text-transform: uppercase;
+  line-height: 0.95; }
+.welcome-text .divider {
+  width: 65px;
+  border: 2px solid white; }
+.welcome-text a {
+  color: #fff;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px 35px;
+  border: 3px solid white; }
+
+
