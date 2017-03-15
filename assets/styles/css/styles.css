@@ -9,24 +9,15 @@ a {
   a:hover {
     text-decoration: none; }
 
-header.page-header {
-  height: 1000px;
-  color: #fff;
-  background: url("../../img/bg/hero.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-
-.nav-logo {
-  font-size: 30px;
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  margin-top: 25px;
-  float: left; }
-
 nav {
   height: 100px;
-  margin-bottom: 135px; }
+  margin-bottom: 115px; }
+  nav .nav-logo {
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+    float: left; }
   nav .links {
     overflow: auto;
     float: right;
@@ -46,6 +37,16 @@ nav {
       color: #fce38a; }
   nav .nav-link:hover {
     border-bottom: 3px solid #fce38a; }
+  nav .search {
+    margin-right: 0; }
+
+header.page-header {
+  height: 1000px;
+  color: #fff;
+  background: url("../../img/bg/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .welcome-text span {
   font-family: "Kaushan Script", cursive;
@@ -54,7 +55,7 @@ nav {
   margin: 33px 0 72px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  font-size: 150px;
+  font-size: 120px;
   text-transform: uppercase;
   line-height: 0.95; }
 .welcome-text .divider {
@@ -66,5 +67,28 @@ nav {
   margin-top: 50px;
   padding: 10px 35px;
   border: 3px solid white; }
+  .welcome-text a:hover {
+    background: #fff;
+    color: #ccc; }
+
+.section-links {
+  margin-top: 155px; }
+  .section-links li a {
+    color: #f7eac5;
+    border-top: 3px solid #f7eac5;
+    display: inline-block;
+    padding: 18px 0;
+    font-size: 16px;
+    float: left;
+    width: 22%;
+    margin-right: 4%; }
+    .section-links li a:hover {
+      color: #fff;
+      border-top: 3px solid #fff; }
+  .section-links li span {
+    font-weight: bold;
+    font-size: 20px; }
+  .section-links li:last-child a {
+    margin-right: 0; }
 
 
