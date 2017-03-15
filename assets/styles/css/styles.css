@@ -104,25 +104,25 @@ header.page-header {
 .about-us {
   margin-bottom: 110px; }
 
-.about-link-container,
-.about-img,
-.about-overlay {
+.fixed-container,
+.images-container,
+.overlay {
   max-height: 240px;
   max-width: 370px; }
 
-.about-link-container {
+.fixed-container {
   background-color: #95e1d3;
   margin: 0 auto;
   padding: 0;
   color: #fff; }
 
-.about-img {
+.images-container {
   position: relative;
   top: 0;
   left: 0;
   overflow: hidden;
   transition: all 0.2s ease-in-out; }
-  .about-img .about-overlay {
+  .images-container .overlay {
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -140,13 +140,13 @@ header.page-header {
     background: linear-gradient(to bottom, #db7574 0%, #e3cd7c 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db7574', endColorstr='#e3cd7c',GradientType=0 );
     transition: all 0.2s ease-in-out; }
-    .about-img .about-overlay h3 {
+    .images-container .overlay h3 {
       font-size: 18px;
       margin-top: 10px; }
-  .about-img:hover {
+  .images-container:hover {
     top: -10px;
     left: -10px; }
-    .about-img:hover .about-overlay {
+    .images-container:hover .overlay {
       opacity: 0.9;
       cursor: pointer; }
 
