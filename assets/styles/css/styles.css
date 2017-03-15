@@ -15,6 +15,11 @@ hr {
   border: 2px solid #f38181;
   margin: 40px auto; }
 
+p {
+  font-family: Roboto, sans-serif;
+  color: #999;
+  font-size: 16px; }
+
 nav {
   height: 100px;
   margin-bottom: 115px; }
@@ -107,5 +112,10 @@ header.page-header {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     text-transform: uppercase; }
+
+.section-desc {
+  width: 80%;
+  margin: 0 auto 88px;
+  text-align: center; }
 
 
