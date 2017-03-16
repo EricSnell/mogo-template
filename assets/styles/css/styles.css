@@ -183,14 +183,35 @@ header.page-header {
     bottom: -170px;
     left: 56%; }
 
-.details .section-heading {
-  margin-top: 110px !important; }
-.details .image-container {
-  width: 570px;
-  height: 380px; }
-  .details .image-container img {
-    width: 100%;
-    height: 100%; }
+/*___DETAILS SECTION__ */
+.details {
+  margin-bottom: 120px; }
+  .details .section-heading {
+    margin-top: 110px !important; }
+  .details .image-container {
+    width: 570px;
+    height: 380px;
+    overflow: hidden; }
+
+/*__TESTIMONIAL SECTION__ */
+.testimonial {
+  height: 290px;
+  background: #f8f8f8;
+  position: relative; }
+
+.item {
+  border: 1px solid red;
+  height: 150px; }
+  .item .message-icon {
+    border: 3px solid #95e1d3;
+    background: url("../../img/icons/speech.png") no-repeat center center;
+    width: 150px;
+    height: 150px;
+    float: left; }
+  .item .quote {
+    border: 1px solid black;
+    overflow: auto;
+    margin-left: 60px; }
 
 .fixed-container {
   background-color: #95e1d3;
@@ -230,10 +251,7 @@ header.page-header {
       opacity: 1;
       cursor: pointer; }
 
-/* ACCORDION MENU STYLING */
-.details {
-  margin-bottom: 120px; }
-
+/* ACCORDION  STYLING */
 /*_____Panel Heading & Title Styling_____ */
 .panel-heading {
   border: 1px solid #e5e5e5;
@@ -279,5 +297,20 @@ header.page-header {
   .well ::-webkit-scrollbar-thumb {
     background-color: #95e1d3;
     border-radius: 10px; }
+
+.owl-carousel blockquote {
+  border-left: none; }
+  .owl-carousel blockquote p {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: light;
+    font-style: italic; }
+  .owl-carousel blockquote .divider {
+    display: inline-block;
+    position: relative; }
+  .owl-carousel blockquote cite {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    border: 1px solid black; }
 
 

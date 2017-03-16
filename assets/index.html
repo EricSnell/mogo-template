@@ -333,42 +333,21 @@
 
   <!-- Testimonial Section -->
   <section class="testimonial">
-    <div class="container">
+    <div class="container vertical-align">
       <div id="owl-demo" class="owl-carousel">
 
         <div class="item">
           <blockquote>
-            <div class="message-icon">
-            <img src="img/icons/speech.png" alt="Speech bubbles">
-          </div>
+            <div class="message-icon"></div>
+            <div class="quote">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus 
               cum tempora placeat quos nam nostrum quis id fuga sunt, perspiciatis 
               ut repellendus dolorem quisquam vel quidem.</p>
-              <cite>John Doe</cite>
+              <hr class="divider"><cite>John Doe</cite>
+            </div>
           </blockquote> 
         </div>
-        <div class="item">
-          <blockquote>
-            <div class="message-icon">
-            <img src="img/icons/speech.png" alt="Speech bubbles">
-          </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus 
-              cum tempora placeat quos nam nostrum quis id fuga sunt, perspiciatis 
-              ut repellendus dolorem quisquam vel quidem.</p>
-            <cite>John Doe</cite>
-          </blockquote>
-        </div>
-        <div class="item">
-          <blockquote>
-            <div class="message-icon">
-            <img src="img/icons/speech.png" alt="Speech bubbles">
-          </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus 
-              cum tempora placeat quos nam nostrum quis id fuga sunt, perspiciatis 
-              ut repellendus dolorem quisquam vel quidem.</p>
-            <cite>John Doe</cite>
-          </blockquote>
-        </div>
+        
 
       </div><!-- end Carousel -->
     </div>
@@ -805,5 +784,14 @@
   crossorigin="anonymous"></script>
   <!-- Owl Carousel -->
   <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(()=>{
+      $('#owl-demo').owlCarousel({
+        items:1,
+        autoPlay: true,
+        loop: true
+      })
+    })
+  </script>
 </body>
 </html>
