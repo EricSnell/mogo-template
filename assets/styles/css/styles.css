@@ -167,6 +167,20 @@ header.page-header {
       text-transform: uppercase;
       margin-bottom: 15px; }
 
+.devices {
+  background: url("../../img/bg/devices-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  border: 1px solid white; }
+  .devices .section-heading {
+    margin-top: 90px !important; }
+  .devices .devices-iphone {
+    position: relative;
+    bottom: -170px;
+    left: 56%; }
+
 .fixed-container {
   background-color: #95e1d3;
   color: #fff; }
