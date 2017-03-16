@@ -230,10 +230,22 @@ header.page-header {
       opacity: 1;
       cursor: pointer; }
 
+/* ACCORDION MENU STYLING */
+.details {
+  margin-bottom: 120px; }
+
+/*_____Panel Heading & Title Styling_____ */
 .panel-heading {
   border: 1px solid #e5e5e5;
-  padding: 15px;
-  margin-top: 13px; }
+  padding: 12px 15px;
+  margin-top: 10px; }
+  .panel-heading .panel-title {
+    display: inline;
+    margin-left: 15px; }
+    .panel-heading .panel-title a {
+      color: #333;
+      font-size: 14px;
+      text-decoration: none; }
   .panel-heading .accordion-toggle:after {
     font-family: "FontAwesome";
     content: "";
@@ -243,28 +255,29 @@ header.page-header {
   .panel-heading .accordion-toggle.collapsed:after {
     content: ""; }
 
-.panel-title {
-  display: inline; }
-  .panel-title a {
-    color: #333;
-    font-size: 14px;
-    text-decoration: none; }
-
-.panel-body {
-  color: #ccc;
-  font-style: italic; }
-
 .first {
   margin-top: 0; }
 
-#max140 {
-  height: 140px;
-  overflow-y: scroll; }
-
+/*_____Panel Body Styling_____ */
 .well {
-  padding: 15px 15px 25px 15px;
+  padding: 15px 25px 25px 15px;
   border-right: 1px solid #e5e5e5;
   border-left: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5; }
+  border-bottom: 1px solid #e5e5e5;
+  /*__scrollbar styling__ */ }
+  .well .panel-body {
+    color: #ccc;
+    font-style: italic;
+    padding-right: 20px;
+    height: 138px;
+    overflow-y: scroll; }
+  .well ::-webkit-scrollbar {
+    width: 6px; }
+  .well ::-webkit-scrollbar-track {
+    background-color: #f8f8f8;
+    border-radius: 10px; }
+  .well ::-webkit-scrollbar-thumb {
+    background-color: #95e1d3;
+    border-radius: 10px; }
 
 
