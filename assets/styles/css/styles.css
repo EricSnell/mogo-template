@@ -196,22 +196,25 @@ header.page-header {
 /*__TESTIMONIAL SECTION__ */
 .testimonial {
   height: 290px;
-  background: #f8f8f8;
-  position: relative; }
+  background: #f8f8f8; }
 
 .item {
-  border: 1px solid red;
-  height: 150px; }
+  height: 150px;
+  max-width: 960px;
+  margin: 0 auto; }
   .item .message-icon {
     border: 3px solid #95e1d3;
     background: url("../../img/icons/speech.png") no-repeat center center;
-    width: 150px;
-    height: 150px;
+    width: 148px;
+    height: 148px;
     float: left; }
   .item .quote {
-    border: 1px solid black;
-    overflow: auto;
-    margin-left: 60px; }
+    max-width: 808px;
+    padding: 5px 0 0 40px;
+    float: left; }
+    .item .quote .divider {
+      display: inline-block;
+      margin-top: 15px; }
 
 .fixed-container {
   background-color: #95e1d3;
@@ -302,15 +305,13 @@ header.page-header {
   border-left: none; }
   .owl-carousel blockquote p {
     font-family: Roboto, sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: light;
     font-style: italic; }
-  .owl-carousel blockquote .divider {
-    display: inline-block;
-    position: relative; }
   .owl-carousel blockquote cite {
+    display: block;
+    margin: -66px 0 0 80px;
     font-family: "Kaushan Script", cursive;
-    font-size: 24px;
-    border: 1px solid black; }
+    font-size: 22px; }
 
 
