@@ -10,7 +10,6 @@
   .overlay
     +dimensions( 480px, 390px )
 
-  
   .images-container.long,
   .overlay.long
     +dimensions( 480px, 780px )
@@ -18,3 +17,27 @@
   img
     width: 100%
     height: 100%
+
+  
+  .images-container
+    &:hover
+      top: 0
+      left: 0
+
+  
+.project-details
+  text-align: center
+  color: #fff
+
+  img
+    +dimensions( 30px, 30px )
+    margin-bottom: 5px
+  
+  h3
+    font-family: $montserrat
+
+  em
+    font-size: 14px
+    font-family: $roboto
+    font-weight: light
+    font-style: italic

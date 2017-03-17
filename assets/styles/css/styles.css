@@ -257,7 +257,8 @@ header.page-header {
   .team-details em {
     font-size: 14px;
     font-family: Roboto, sans-serif;
-    font-weight: italic;
+    font-weight: light;
+    font-style: italic;
     color: #b3b3b3; }
 
 /*__COMPANY LOGOS SECTION__ */
@@ -284,6 +285,24 @@ header.page-header {
 .portfolio img {
   width: 100%;
   height: 100%; }
+.portfolio .images-container:hover {
+  top: 0;
+  left: 0; }
+
+.project-details {
+  text-align: center;
+  color: #fff; }
+  .project-details img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-bottom: 5px; }
+  .project-details h3 {
+    font-family: Montserrat, sans-serif; }
+  .project-details em {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: light;
+    font-style: italic; }
 
 .fixed-container {
   background-color: #95e1d3;
