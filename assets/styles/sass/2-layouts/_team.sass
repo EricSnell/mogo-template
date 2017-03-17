@@ -1,0 +1,32 @@
+/*__TEAM SECTION__*/
+
+.fixed-container,
+.images-container,
+.overlay
+  +dimensions( 380px, 470px )
+
+
+.social-links
+  max-width: 220px
+  height: 55px
+  margin: 0 auto  
+
+  a
+    display: block
+    color: $brand-red
+    background: $brand-yellow
+    font-size: 28px
+    width: 25%
+    height: 100%
+    border-right: 1px solid $brand-red
+    float: left
+    line-height: 55px
+
+    &:hover
+      color: #fff
+      background: $brand-red
+
+    &:last-child
+      border-right: none
+    
+      

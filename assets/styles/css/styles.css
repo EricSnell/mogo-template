@@ -216,6 +216,33 @@ header.page-header {
       display: inline-block;
       margin-top: 15px; }
 
+/*__TEAM SECTION__ */
+.fixed-container,
+.images-container,
+.overlay {
+  max-width: 380px;
+  max-height: 470px; }
+
+.social-links {
+  max-width: 220px;
+  height: 55px;
+  margin: 0 auto; }
+  .social-links a {
+    display: block;
+    color: #f38181;
+    background: #fce38a;
+    font-size: 28px;
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #f38181;
+    float: left;
+    line-height: 55px; }
+    .social-links a:hover {
+      color: #fff;
+      background: #f38181; }
+    .social-links a:last-child {
+      border-right: none; }
+
 .fixed-container {
   background-color: #95e1d3;
   color: #fff; }
