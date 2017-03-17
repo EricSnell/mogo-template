@@ -260,6 +260,15 @@ header.page-header {
     font-weight: italic;
     color: #b3b3b3; }
 
+/*__COMPANY LOGOS SECTION__ */
+.company-logos {
+  height: 250px;
+  background-color: #f8f8f8; }
+  .company-logos .image {
+    background: url("../../img/companies.png") no-repeat center center;
+    background-size: contain;
+    height: 100%; }
+
 .fixed-container {
   background-color: #95e1d3;
   color: #fff; }
