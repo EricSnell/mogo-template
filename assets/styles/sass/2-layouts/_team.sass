@@ -1,10 +1,15 @@
 /*__TEAM SECTION__*/
 
-.fixed-container,
-.images-container,
-.overlay
-  +dimensions( 380px, 470px )
+.team
+  margin-bottom: 110px
 
+  .fixed-container,
+  .images-container,
+  .overlay
+    +dimensions( 380px, 470px )
+
+
+/*___Team Member Details___*/
 
 .social-links
   max-width: 220px
@@ -28,5 +33,20 @@
 
     &:last-child
       border-right: none
-    
+
+
+.team-details
+  text-align: center
+  margin-top: 28px
       
+  h4
+    font-size: 17px
+    text-transform: uppercase
+    font-family: $montserrat
+    letter-spacing: -1px
+
+  em
+    font-size: 14px
+    font-family: $roboto
+    font-weight: italic
+    color: #b3b3b3 

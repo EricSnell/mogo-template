@@ -217,12 +217,15 @@ header.page-header {
       margin-top: 15px; }
 
 /*__TEAM SECTION__ */
-.fixed-container,
-.images-container,
-.overlay {
-  max-width: 380px;
-  max-height: 470px; }
+.team {
+  margin-bottom: 110px; }
+  .team .fixed-container,
+  .team .images-container,
+  .team .overlay {
+    max-width: 380px;
+    max-height: 470px; }
 
+/*___Team Member Details___ */
 .social-links {
   max-width: 220px;
   height: 55px;
@@ -242,6 +245,20 @@ header.page-header {
       background: #f38181; }
     .social-links a:last-child {
       border-right: none; }
+
+.team-details {
+  text-align: center;
+  margin-top: 28px; }
+  .team-details h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: -1px; }
+  .team-details em {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: italic;
+    color: #b3b3b3; }
 
 .fixed-container {
   background-color: #95e1d3;
