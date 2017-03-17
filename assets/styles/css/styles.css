@@ -269,6 +269,22 @@ header.page-header {
     background-size: contain;
     height: 100%; }
 
+/*__PORTFOLIO SECTION__ */
+.portfolio .col-lg-6,
+.portfolio .col-md-6 {
+  padding: 0; }
+.portfolio .images-container,
+.portfolio .overlay {
+  max-width: 480px;
+  max-height: 390px; }
+.portfolio .images-container.long,
+.portfolio .overlay.long {
+  max-width: 480px;
+  max-height: 780px; }
+.portfolio img {
+  width: 100%;
+  height: 100%; }
+
 .fixed-container {
   background-color: #95e1d3;
   color: #fff; }
