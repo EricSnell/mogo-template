@@ -316,7 +316,8 @@ header.page-header {
   .clients .client-details {
     margin-top: 8px;
     overflow: auto;
-    font-size: 16px; }
+    font-size: 16px;
+    color: #333; }
     .clients .client-details h4 {
       font-family: Montserrat, sans-serif;
       font-size: 16px;
