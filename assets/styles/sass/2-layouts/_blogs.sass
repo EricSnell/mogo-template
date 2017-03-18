@@ -1,15 +1,15 @@
 .blogs
+  padding-bottom: 110px
 
   .col-md-4
     padding: 0
-    border: 1px solid black
 
   .section-heading
     margin: 110px auto 45px
 
   img
     +dimensions( 380px, 240px )
-    
+
 
   .blog-date
     color: #fff
@@ -17,8 +17,8 @@
     width: 60px
     height: 70px
     text-align: center
-    position: absolute
-    bottom: 132px
+    position: relative
+    bottom: 80px
     left: -10px
 
     span
@@ -35,3 +35,30 @@
         font-size: 16px
         font-style: italic
         font-weight: light
+
+
+  .blog-details
+    color: $black
+    margin-top: -55px
+
+    h4
+      font-size: 15px
+      text-transform: uppercase
+      margin-bottom: 11px
+
+    p
+      border-bottom: 1px solid $gray
+      padding-bottom: 20px
+
+    a
+      font-family: $roboto
+      color: $gray
+      font-weight: light
+      font-style: italic
+      margin-right: 12px
+
+      &:hover
+        color: $brand-turquoise
+
+      img
+        margin-right: 5px
