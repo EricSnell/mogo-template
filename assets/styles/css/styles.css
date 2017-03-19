@@ -436,6 +436,8 @@ footer {
           display: block;
           text-align: center;
           color: #95e1d3; }
+          footer .contact .contact-social-links li a:hover {
+            color: #86c9bd; }
 
 .fixed-container {
   background-color: #95e1d3;
@@ -567,5 +569,8 @@ button {
   height: 35px;
   font-size: 14px;
   text-transform: uppercase; }
+  button:hover {
+    cursor: pointer;
+    background: #86c9bd; }
 
 
