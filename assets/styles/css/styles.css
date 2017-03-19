@@ -586,4 +586,23 @@ button {
   .blog-link-sm h4 {
     margin: 18px 0 3px 0; }
 
+/*__INSTAGRAM MODULE__ */
+.instagram-links {
+  border: 1px solid red;
+  padding: 0; }
+  .instagram-links .col-md-4 {
+    border: 1px solid black;
+    padding: 2px; }
+    .instagram-links .col-md-4 img {
+      max-width: 88px;
+      max-height: 88px;
+      padding-bottom: 2px; }
+  .instagram-links a {
+    color: #333;
+    font-family: Roboto, sans-serif;
+    font-weight: light;
+    font-style: italic;
+    font-size: 14px;
+    text-align: left; }
+
 
