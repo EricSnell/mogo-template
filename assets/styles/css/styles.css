@@ -403,6 +403,9 @@ header.page-header {
 footer {
   padding: 72px 0 65px 0;
   background: #f8f8f8; }
+  footer .footer-col-heading {
+    padding-top: 17px;
+    margin-bottom: 40px; }
   footer h1,
   footer h4 {
     font-family: Montserrat, sans-serif; }
@@ -572,5 +575,15 @@ button {
   button:hover {
     cursor: pointer;
     background: #86c9bd; }
+
+/*__BLOG LINK SM MODULES__ */
+.blog-link-sm {
+  overflow: auto;
+  margin-bottom: 20px; }
+  .blog-link-sm img {
+    float: left;
+    margin-right: 20px; }
+  .blog-link-sm h4 {
+    margin: 18px 0 3px 0; }
 
 
