@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*__BASE STYLINGS__ */
 ul {
   list-style: none;
   padding: 0;
@@ -51,6 +52,7 @@ nav {
   nav .search {
     margin-right: 0; }
 
+/*__HERO SECTION__ */
 header.page-header {
   height: 1000px;
   color: #fff;
@@ -72,15 +74,6 @@ header.page-header {
 .welcome-text .divider {
   width: 65px;
   border: 2px solid white; }
-.welcome-text a {
-  color: #fff;
-  display: inline-block;
-  margin-top: 30px;
-  padding: 10px 35px;
-  border: 3px solid white; }
-  .welcome-text a:hover {
-    background: #fff;
-    color: #ccc; }
 
 .section-links {
   margin-top: 155px; }
@@ -126,6 +119,7 @@ header.page-header {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+/*__ABOUT SECTION__ */
 .about-us {
   margin-bottom: 110px; }
 
@@ -330,13 +324,14 @@ header.page-header {
       margin: 15px 0 13px;
       padding: 0; }
 
+/*__BLOGS SECTION__ */
 .blogs {
   padding-bottom: 110px; }
   .blogs .col-md-4 {
     padding: 0; }
   .blogs .section-heading {
     margin: 110px auto 45px; }
-  .blogs img {
+  .blogs .blog-img {
     max-width: 380px;
     max-height: 240px; }
   .blogs .blog-date {
@@ -442,6 +437,19 @@ footer {
           footer .contact .contact-social-links li a:hover {
             color: #86c9bd; }
 
+/*__BUTTON MODULES__ */
+/*___Transparent Button___ */
+.transparent-btn {
+  color: #fff;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 35px;
+  border: 3px solid white; }
+  .transparent-btn:hover {
+    background: #fff;
+    color: #ccc; }
+
+/*__IMAGE OVERLAY MODULE__ */
 .fixed-container {
   background-color: #95e1d3;
   color: #fff; }
