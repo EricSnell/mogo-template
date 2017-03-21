@@ -609,14 +609,14 @@ button {
 
 /*__INSTAGRAM MODULE__ */
 .instagram-links {
-  border: 1px solid red;
   padding: 0; }
+  .instagram-links .row {
+    margin: 0 0 10px 0; }
   .instagram-links .col-md-4 {
-    border: 1px solid black;
-    padding: 2px; }
+    padding: 0; }
     .instagram-links .col-md-4 img {
-      max-width: 88px;
-      max-height: 88px;
+      max-width: 84px;
+      max-height: 84px;
       padding-bottom: 2px; }
   .instagram-links a {
     color: #333;
@@ -625,5 +625,7 @@ button {
     font-style: italic;
     font-size: 14px;
     text-align: left; }
+    .instagram-links a:hover {
+      text-decoration: underline; }
 
 
