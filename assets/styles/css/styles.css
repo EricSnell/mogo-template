@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*______GLOBAL VARIABLES______ */
+/*______GLOBAL VARIABLES______ */
+/*______MIXINS______ */
 /*__BASE STYLINGS__ */
 ul {
   list-style: none;
@@ -22,6 +25,7 @@ p {
   color: #999;
   font-size: 16px; }
 
+/*__NAVBAR STYLING__ */
 nav {
   height: 100px;
   margin-bottom: 115px; }
@@ -95,6 +99,7 @@ header.page-header {
   .section-links li:last-child a {
     margin-right: 0; }
 
+/*__SECTION HEADER__ */
 .section-heading {
   text-align: center;
   margin-top: 90px; }
@@ -129,6 +134,7 @@ header.page-header {
   max-width: 370px;
   max-height: 240px; }
 
+/*__STATS SECTION__ */
 .stats {
   background-color: #95e1d3;
   color: #fff;
@@ -147,6 +153,7 @@ header.page-header {
   .stats .stat:last-child {
     border-right: none; }
 
+/*__SERVICES SECTION__ */
 .services {
   margin-bottom: 100px; }
 
@@ -165,13 +172,15 @@ header.page-header {
       text-transform: uppercase;
       margin-bottom: 15px; }
 
+/*__DEVICES SECTION__ */
 .devices {
   background: url("../../img/bg/devices-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 800px;
-  border: 1px solid white; }
+  border: 1px solid white;
+  /*___Iphone image positioning__ */ }
   .devices .devices-iphone {
     position: relative;
     bottom: -170px;
@@ -331,50 +340,6 @@ header.page-header {
     padding: 0; }
   .blogs .section-heading {
     margin: 110px auto 45px; }
-  .blogs .blog-img {
-    max-width: 380px;
-    max-height: 240px; }
-  .blogs .blog-date {
-    color: #fff;
-    background: #95e1d3;
-    width: 60px;
-    height: 70px;
-    text-align: center;
-    position: relative;
-    bottom: 80px;
-    left: -10px; }
-    .blogs .blog-date span {
-      display: block; }
-      .blogs .blog-date span:first-child {
-        font-family: Montserrat, sans-serif;
-        font-size: 30px;
-        font-weight: bold;
-        margin-bottom: -7px; }
-      .blogs .blog-date span:last-child {
-        font-family: Roboto, sans-serif;
-        font-size: 16px;
-        font-style: italic;
-        font-weight: light; }
-  .blogs .blog-details {
-    color: #333;
-    margin-top: -55px; }
-    .blogs .blog-details h4 {
-      font-size: 15px;
-      text-transform: uppercase;
-      margin-bottom: 11px; }
-    .blogs .blog-details p {
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 20px; }
-    .blogs .blog-details a {
-      font-family: Roboto, sans-serif;
-      color: #ccc;
-      font-weight: light;
-      font-style: italic;
-      margin-right: 12px; }
-      .blogs .blog-details a:hover {
-        color: #95e1d3; }
-      .blogs .blog-details a img {
-        margin-right: 5px; }
 
 /*___MAP SECTION___ */
 .map {
@@ -488,7 +453,7 @@ footer {
       opacity: 1;
       cursor: pointer; }
 
-/* ACCORDION  STYLING */
+/* ACCORDION MODULE */
 /*_____Panel Heading & Title Styling_____ */
 .panel-heading {
   border: 1px solid #e5e5e5;
@@ -535,6 +500,7 @@ footer {
     background-color: #95e1d3;
     border-radius: 10px; }
 
+/*__OWLC CAROUSEL MODULE__ */
 .owl-carousel .item {
   max-width: 960px;
   margin: 0 auto; }
@@ -584,7 +550,54 @@ button {
     cursor: pointer;
     background: #86c9bd; }
 
-/*__BLOG LINK SM MODULES__ */
+/*__BLOG MODULES__ */
+/*___Blog Link: Large___ */
+.blogs .blog-img {
+  max-width: 380px;
+  max-height: 240px; }
+.blogs .blog-date {
+  color: #fff;
+  background: #95e1d3;
+  width: 60px;
+  height: 70px;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  left: -10px; }
+  .blogs .blog-date span {
+    display: block; }
+    .blogs .blog-date span:first-child {
+      font-family: Montserrat, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: -7px; }
+    .blogs .blog-date span:last-child {
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      font-style: italic;
+      font-weight: light; }
+.blogs .blog-details {
+  color: #333;
+  margin-top: -55px; }
+  .blogs .blog-details h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 11px; }
+  .blogs .blog-details p {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px; }
+  .blogs .blog-details a {
+    font-family: Roboto, sans-serif;
+    color: #ccc;
+    font-weight: light;
+    font-style: italic;
+    margin-right: 12px; }
+    .blogs .blog-details a:hover {
+      color: #95e1d3; }
+    .blogs .blog-details a img {
+      margin-right: 5px; }
+
+/*___Blog Link: Small___ */
 .blog-link-sm {
   overflow: auto;
   margin-bottom: 20px; }
