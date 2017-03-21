@@ -583,18 +583,22 @@ button {
     font-size: 15px;
     text-transform: uppercase;
     margin-bottom: 11px; }
+    .blogs .blog-details h4 a {
+      color: #333; }
+      .blogs .blog-details h4 a:hover {
+        text-decoration: underline; }
   .blogs .blog-details p {
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px; }
-  .blogs .blog-details a {
+  .blogs .blog-details .views {
     font-family: Roboto, sans-serif;
     color: #ccc;
     font-weight: light;
     font-style: italic;
     margin-right: 12px; }
-    .blogs .blog-details a:hover {
+    .blogs .blog-details .views:hover {
       color: #95e1d3; }
-    .blogs .blog-details a img {
+    .blogs .blog-details .views img {
       margin-right: 5px; }
 
 /*___Blog Link: Small___ */
@@ -606,6 +610,10 @@ button {
     margin-right: 20px; }
   .blog-link-sm h4 {
     margin: 18px 0 3px 0; }
+    .blog-link-sm h4 a {
+      color: #333; }
+      .blog-link-sm h4 a:hover {
+        text-decoration: underline; }
 
 /*__INSTAGRAM MODULE__ */
 .instagram-links {
