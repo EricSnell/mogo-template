@@ -200,30 +200,32 @@ header.page-header {
 .testimonial {
   height: 430px;
   background: #f8f8f8; }
-  .testimonial .item {
+  .testimonial .quote-block {
     height: 150px;
     max-width: 960px;
-    margin: 0 auto; }
-    .testimonial .item blockquote {
-      border-left: none; }
-    .testimonial .item p {
+    margin: 0 auto;
+    border-left: none; }
+    .testimonial .quote-block p {
       font-family: Roboto, sans-serif;
       font-size: 22px;
       font-weight: light;
       font-style: italic; }
-    .testimonial .item .message-icon {
+    .testimonial .quote-block .message-icon {
       border: 3px solid #95e1d3;
       background: url("../../img/icons/speech.png") no-repeat center center;
       width: 148px;
       height: 148px;
-      float: left; }
-    .testimonial .item cite {
-      margin: -66px 0 0 80px;
+      float: left;
+      margin-right: 40px; }
+    .testimonial .quote-block cite {
       display: block;
       font-family: "Kaushan Script", cursive;
-      font-size: 22px; }
-    .testimonial .item .divider {
-      margin-top: 15px;
+      font-size: 22px;
+      position: relative;
+      left: 80px;
+      bottom: 27px; }
+    .testimonial .quote-block .divider {
+      margin: 15px 0 0 0;
       display: inline-block; }
 
 /*__TEAM SECTION__ */
@@ -512,28 +514,6 @@ footer {
   .well ::-webkit-scrollbar-thumb {
     background-color: #95e1d3;
     border-radius: 10px; }
-
-/*__OWLC CAROUSEL MODULE__ */
-.item {
-  max-width: 960px;
-  margin: 0 auto; }
-  .item blockquote {
-    border-left: none; }
-    .item blockquote p {
-      font-family: Roboto, sans-serif;
-      font-size: 22px;
-      font-weight: light;
-      font-style: italic; }
-    .item blockquote cite {
-      display: block;
-      font-family: "Kaushan Script", cursive;
-      font-size: 22px; }
-    .item blockquote .quote {
-      max-width: 808px;
-      padding: 5px 0 0 40px;
-      float: left; }
-      .item blockquote .quote .divider {
-        display: inline-block; }
 
 /*__INPUT MODULE__ */
 input {
