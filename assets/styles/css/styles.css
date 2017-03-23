@@ -201,7 +201,16 @@ header.page-header {
   height: 430px;
   background: #f8f8f8; }
   .testimonial .item {
-    height: 150px; }
+    height: 150px;
+    max-width: 960px;
+    margin: 0 auto; }
+    .testimonial .item blockquote {
+      border-left: none; }
+    .testimonial .item p {
+      font-family: Roboto, sans-serif;
+      font-size: 22px;
+      font-weight: light;
+      font-style: italic; }
     .testimonial .item .message-icon {
       border: 3px solid #95e1d3;
       background: url("../../img/icons/speech.png") no-repeat center center;
@@ -209,9 +218,13 @@ header.page-header {
       height: 148px;
       float: left; }
     .testimonial .item cite {
-      margin: -66px 0 0 80px; }
+      margin: -66px 0 0 80px;
+      display: block;
+      font-family: "Kaushan Script", cursive;
+      font-size: 22px; }
     .testimonial .item .divider {
-      margin-top: 15px; }
+      margin-top: 15px;
+      display: inline-block; }
 
 /*__TEAM SECTION__ */
 .team {
@@ -501,25 +514,25 @@ footer {
     border-radius: 10px; }
 
 /*__OWLC CAROUSEL MODULE__ */
-.owl-carousel .item {
+.item {
   max-width: 960px;
   margin: 0 auto; }
-  .owl-carousel .item blockquote {
+  .item blockquote {
     border-left: none; }
-    .owl-carousel .item blockquote p {
+    .item blockquote p {
       font-family: Roboto, sans-serif;
       font-size: 22px;
       font-weight: light;
       font-style: italic; }
-    .owl-carousel .item blockquote cite {
+    .item blockquote cite {
       display: block;
       font-family: "Kaushan Script", cursive;
       font-size: 22px; }
-    .owl-carousel .item blockquote .quote {
+    .item blockquote .quote {
       max-width: 808px;
       padding: 5px 0 0 40px;
       float: left; }
-      .owl-carousel .item blockquote .quote .divider {
+      .item blockquote .quote .divider {
         display: inline-block; }
 
 /*__INPUT MODULE__ */
