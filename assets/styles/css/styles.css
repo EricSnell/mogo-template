@@ -283,9 +283,12 @@ header.page-header {
     height: 100%; }
 
 /*__PORTFOLIO SECTION__ */
-.portfolio .col-lg-6,
-.portfolio .col-md-6 {
+.portfolio .container-fluid,
+.portfolio .col-md-6,
+.portfolio .col-md-12 {
   padding: 0; }
+.portfolio .row {
+  margin: 0; }
 .portfolio .images-container,
 .portfolio .overlay {
   max-width: 480px;
@@ -301,6 +304,7 @@ header.page-header {
   top: 0;
   left: 0; }
 
+/*___Project Overlay Styling___ */
 .project-details {
   text-align: center;
   color: #fff; }
