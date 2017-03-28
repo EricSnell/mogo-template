@@ -108,6 +108,16 @@ header.page-header {
       font-size: 90px; }
     header.page-header .section-links {
       display: none; } }
+@media only screen and (max-width: 575px) {
+  header.page-header {
+    height: 600px; }
+    header.page-header .welcome-text span {
+      font-size: 30px; }
+    header.page-header .welcome-text h1 {
+      font-size: 60px;
+      margin-bottom: 20px; }
+    header.page-header .welcome-text .divider {
+      display: none; } }
 /*__SECTION HEADER__ */
 .section-heading {
   text-align: center;
