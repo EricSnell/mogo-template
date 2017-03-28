@@ -6,6 +6,7 @@
   font-family: $montserrat
   text-align: center
 
+
   .stat
     height: 260px
     padding: 0
@@ -20,3 +21,25 @@
 
   .stat:last-child
     border-right: none
+
+
+
+
+@media only screen and (max-width: 767px)
+
+  .stat
+    border-bottom: 1px solid #b5eae0
+    
+    &:nth-child(even)
+      border-right: none
+
+    &:nth-child(odd)
+      border-left: none
+
+
+
+@media only screen and (max-width: 575px)
+
+  .stat 
+    border-right: none
+    border-left: none
