@@ -233,6 +233,9 @@ header.page-header {
     bottom: -170px;
     left: 56%; }
 
+@media only screen and (max-width: 575px) {
+  .devices-iphone {
+    display: none; } }
 /*___DETAILS SECTION__ */
 .details {
   margin-bottom: 120px; }
