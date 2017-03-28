@@ -156,6 +156,9 @@ header.page-header {
   max-width: 370px;
   max-height: 240px; }
 
+@media only screen and (max-width: 767px) {
+  .about-us .fixed-container {
+    margin: 18px auto; } }
 /*__STATS SECTION__ */
 .stats {
   background-color: #95e1d3;
