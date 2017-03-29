@@ -290,10 +290,6 @@ header.page-header {
 @media only screen and (max-width: 767px) {
   .message-icon {
     display: none; } }
-@media only screen and (max-width: 575px) {
-  .testimonial .vertical-align {
-    border: 1px solid black;
-    clear: both; } }
 /*__TEAM SECTION__ */
 .team {
   margin-bottom: 110px; }
