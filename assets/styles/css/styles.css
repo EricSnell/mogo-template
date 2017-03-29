@@ -241,11 +241,19 @@ header.page-header {
   margin-bottom: 120px; }
   .details .section-heading {
     margin-top: 110px !important; }
-  .details .image-container {
-    width: 570px;
-    height: 380px;
-    overflow: hidden; }
+  .details .images-container {
+    max-width: 570px;
+    max-height: 380px; }
+    .details .images-container:hover {
+      top: 0;
+      left: 0; }
 
+@media only screen and (max-width: 767px) {
+  .images-container {
+    margin-bottom: 30px; }
+    .images-container img {
+      width: 100%;
+      height: 100%; } }
 /*__TESTIMONIAL SECTION__ */
 .testimonial {
   height: 430px;
