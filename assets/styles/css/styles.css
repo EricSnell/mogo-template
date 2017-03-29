@@ -249,9 +249,9 @@ header.page-header {
       left: 0; }
 
 @media only screen and (max-width: 767px) {
-  .images-container {
+  .details .images-container {
     margin-bottom: 30px; }
-    .images-container img {
+    .details .images-container img {
       width: 100%;
       height: 100%; } }
 /*__TESTIMONIAL SECTION__ */
@@ -261,8 +261,9 @@ header.page-header {
   .testimonial .quote-block {
     height: 150px;
     max-width: 960px;
-    margin: 0 auto;
-    border-left: none; }
+    margin: 0 auto; }
+    .testimonial .quote-block blockquote {
+      border-left: none; }
     .testimonial .quote-block p {
       font-family: Roboto, sans-serif;
       font-size: 22px;
@@ -274,7 +275,7 @@ header.page-header {
       width: 148px;
       height: 148px;
       float: left;
-      margin-right: 40px; }
+      margin: 0 40px 80px 0; }
     .testimonial .quote-block cite {
       display: block;
       font-family: "Kaushan Script", cursive;
@@ -286,6 +287,13 @@ header.page-header {
       margin: 15px 0 0 0;
       display: inline-block; }
 
+@media only screen and (max-width: 767px) {
+  .message-icon {
+    display: none; } }
+@media only screen and (max-width: 575px) {
+  .testimonial .vertical-align {
+    border: 1px solid black;
+    clear: both; } }
 /*__TEAM SECTION__ */
 .team {
   margin-bottom: 110px; }
