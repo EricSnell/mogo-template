@@ -350,8 +350,7 @@ header.page-header {
       opacity: 1;
       left: 0;
       top: 80%;
-      height: 20%;
-      box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.26); }
+      height: 20%; }
   .team .team-details {
     margin: 10px auto 55px; } }
 /*__COMPANY LOGOS SECTION__ */
@@ -418,11 +417,11 @@ header.page-header {
     margin: 115px auto 80px; }
   .clients img {
     float: left;
-    margin-right: 28px; }
+    margin: 0 28px 120px 0; }
   .clients .client-details {
     margin-top: 8px;
-    overflow: auto;
     font-size: 16px;
+    font-family: Roboto, sans-serif;
     color: #333; }
     .clients .client-details h4 {
       font-family: Montserrat, sans-serif;
@@ -435,6 +434,9 @@ header.page-header {
       display: inline-block;
       margin: 15px 0 13px;
       padding: 0; }
+  @media only screen and (max-width: 767px) {
+    .clients .clients .client-details {
+      border: 1px solid red; } }
 
 /*__BLOGS SECTION__ */
 .blogs {

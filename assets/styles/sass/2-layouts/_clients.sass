@@ -13,14 +13,13 @@
   
   img
     float: left
-    margin-right: 28px
+    margin: 0 28px 120px 0
     
 
   .client-details
     margin-top: 8px
-    overflow: auto
     font-size: 16px 
-    $font-family: $roboto
+    font-family: $roboto
     color: $black
 
     h4
@@ -37,3 +36,13 @@
       margin: 15px 0 13px
       padding: 0
   
+
+
+
+
+  @media only screen and (max-width: 767px)
+
+    .clients
+
+      .client-details
+        border: 1px solid red
