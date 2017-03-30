@@ -436,6 +436,9 @@ header.page-header {
       margin: 15px 0 13px;
       padding: 0; }
 
+@media only screen and (max-width: 767px) {
+  .clients {
+    padding-bottom: 0; } }
 /*__BLOGS SECTION__ */
 .blogs {
   padding-bottom: 110px; }
