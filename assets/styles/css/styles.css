@@ -338,6 +338,22 @@ header.page-header {
     font-style: italic;
     color: #b3b3b3; }
 
+@media only screen and (max-width: 767px) {
+  .team .fixed-container {
+    margin: 0 auto; }
+  .team .images-container {
+    height: 100%; }
+    .team .images-container:hover {
+      top: 0;
+      left: 0; }
+    .team .images-container .overlay {
+      opacity: 1;
+      left: 0;
+      top: 80%;
+      height: 20%;
+      box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.26); }
+  .team .team-details {
+    margin: 10px auto 55px; } }
 /*__COMPANY LOGOS SECTION__ */
 .company-logos {
   height: 250px;
