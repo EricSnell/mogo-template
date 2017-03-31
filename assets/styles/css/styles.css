@@ -340,20 +340,22 @@ header.page-header {
     color: #b3b3b3; }
 
 @media only screen and (max-width: 767px) {
-  .team .fixed-container {
-    margin: 0 auto; }
-  .team .images-container {
-    height: 100%; }
-    .team .images-container:hover {
-      top: 0;
-      left: 0; }
-    .team .images-container .overlay {
-      opacity: 1;
-      left: 0;
-      top: 80%;
-      height: 20%; }
-  .team .team-details {
-    margin: 10px auto 55px; } }
+  .team {
+    margin-bottom: 60px; }
+    .team .fixed-container {
+      margin: 0 auto; }
+    .team .images-container {
+      height: 100%; }
+      .team .images-container:hover {
+        top: 0;
+        left: 0; }
+      .team .images-container .overlay {
+        opacity: 1;
+        left: 0;
+        top: 80%;
+        height: 20%; }
+    .team .team-details {
+      margin: 10px auto 55px; } }
 /*__COMPANY LOGOS SECTION__ */
 .company-logos {
   height: 250px;
@@ -445,6 +447,9 @@ header.page-header {
   .blogs .section-heading {
     margin: 110px auto 45px; }
 
+@media only screen and (max-width: 767px) {
+  .blogs {
+    padding-bottom: 60px; } }
 /*___MAP SECTION___ */
 .map {
   height: 195px;
@@ -609,7 +614,7 @@ footer {
     border-radius: 10px; }
 
 /*__INPUT MODULE__ */
-input {
+input.email {
   border: 1px solid #ccc;
   height: 35px;
   padding: 10px;
@@ -620,7 +625,7 @@ input {
   color: #dfdfdf;
   font-style: italic; }
 
-button {
+button.subscribe {
   font-family: Montserrat, sans-serif;
   position: relative;
   left: -6px;
@@ -632,10 +637,22 @@ button {
   height: 35px;
   font-size: 14px;
   text-transform: uppercase; }
-  button:hover {
+  button.subscribe:hover {
     cursor: pointer;
     background: #86c9bd; }
 
+@media only screen and (max-width: 575px) {
+  input.email {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px; }
+
+  button.subscribe {
+    position: static;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 50px; } }
 /*__BLOG MODULES__ */
 /*___Blog Link: Large___ */
 .blogs .blog-img {
