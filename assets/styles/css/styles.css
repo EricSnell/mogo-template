@@ -511,6 +511,13 @@ footer {
           footer .contact .contact-social-links li a:hover {
             color: #86c9bd; }
 
+@media only screen and (max-width: 575px) {
+  footer .contact {
+    margin-top: 20px; }
+    footer .contact .contact-social-links li:nth-child(1) {
+      display: none; }
+    footer .contact .contact-social-links li .fa {
+      font-size: 32px; } }
 /*__BUTTON MODULES__ */
 /*___Transparent Button___ */
 .transparent-btn {
