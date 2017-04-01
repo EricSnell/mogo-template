@@ -745,19 +745,15 @@ button.subscribe {
 
 /*__INSTAGRAM MODULE__ */
 .instagram-links {
-  padding: 0; }
-  .instagram-links .row {
-    margin: 0 0 10px 0; }
-  .instagram-links .col-md-4 {
-    padding: 0; }
-    .instagram-links .col-md-4 img {
-      max-width: 84px;
-      max-height: 84px;
-      padding-bottom: 2px;
-      transition: all 0.2s; }
-      .instagram-links .col-md-4 img:hover {
-        -webkit-filter: grayscale(1);
-        filter: grayscale(1); }
+  width: 260px; }
+  .instagram-links img {
+    max-width: 80px;
+    max-height: 80px;
+    padding-bottom: 4px;
+    transition: all 0.2s; }
+    .instagram-links img:hover {
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1); }
   .instagram-links a {
     color: #333;
     font-family: Roboto, sans-serif;
@@ -767,5 +763,8 @@ button.subscribe {
     text-align: left; }
     .instagram-links a:hover {
       text-decoration: underline; }
+    .instagram-links a:last-child {
+      display: block;
+      margin-top: 15px; }
 
 
