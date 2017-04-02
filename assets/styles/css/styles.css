@@ -157,8 +157,19 @@ header.page-header {
   max-height: 240px; }
 
 @media only screen and (max-width: 767px) {
-  .about-us .fixed-container {
-    margin: 18px auto; } }
+  .about-us {
+    margin-bottom: 60px; }
+    .about-us .fixed-container,
+    .about-us .images-container,
+    .about-us .overlay {
+      height: 150px; }
+    .about-us .fixed-container {
+      margin: 5px auto; }
+      .about-us .fixed-container .overlay {
+        opacity: 1; }
+      .about-us .fixed-container .images-container:hover {
+        top: 0;
+        left: 0; } }
 /*__STATS SECTION__ */
 .stats {
   background-color: #95e1d3;

@@ -19,5 +19,20 @@
 @media only screen and (max-width: 767px)
 
   .about-us
+    margin-bottom: 60px 
+    
+    .fixed-container,
+    .images-container,
+    .overlay
+      height: 150px
+
     .fixed-container
-      margin: 18px auto
+      margin: 5px auto
+
+      .overlay
+        opacity: 1
+    
+      .images-container
+        &:hover
+          top: 0
+          left: 0
