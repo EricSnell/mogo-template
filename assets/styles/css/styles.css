@@ -288,13 +288,9 @@ header.page-header {
       float: left;
       margin: 0 40px 80px 0; }
     .testimonial .quote-block cite {
-      display: block;
       font-family: "Kaushan Script", cursive;
       font-size: 22px;
-      position: relative;
-      left: 80px;
-      bottom: 27px;
-      width: 100px; }
+      margin-left: 10px; }
     .testimonial .quote-block .divider {
       margin: 15px 0 0 0;
       display: inline-block; }
