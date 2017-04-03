@@ -740,15 +740,21 @@ button.subscribe {
 .blog-link-sm {
   overflow: auto;
   margin-bottom: 20px; }
+  .blog-link-sm:hover {
+    cursor: pointer; }
+    .blog-link-sm:hover h4 a {
+      text-decoration: underline; }
+    .blog-link-sm:hover img {
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1); }
   .blog-link-sm img {
     float: left;
-    margin-right: 20px; }
+    margin-right: 20px;
+    transition: all 0.2s; }
   .blog-link-sm h4 {
     margin: 18px 0 3px 0; }
     .blog-link-sm h4 a {
       color: #333; }
-      .blog-link-sm h4 a:hover {
-        text-decoration: underline; }
 
 /*__INSTAGRAM MODULE__ */
 .instagram-links {

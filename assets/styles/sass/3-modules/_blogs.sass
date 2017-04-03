@@ -118,9 +118,20 @@
   overflow: auto
   margin-bottom: 20px
 
+  &:hover
+    cursor: pointer
+
+    & h4 a
+      text-decoration: underline
+    
+    & img
+      filter: grayscale(1)
+      
+
   img
     float: left
     margin-right: 20px
+    transition: all 0.2s
 
   h4
     margin: 18px 0 3px 0
@@ -128,7 +139,5 @@
     a
       color: $black
 
-      &:hover
-        text-decoration: underline
 
     
