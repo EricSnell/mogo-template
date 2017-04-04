@@ -6,7 +6,7 @@
   .fixed-container,
   .images-container,
   .overlay
-    +dimensions( 380px, 470px )
+    @include dimensions( 380px, 470px )
 
 
 /*___Team Member Details___*/
@@ -40,17 +40,13 @@
   margin-top: 28px
       
   h4
-    font-size: 17px
-    text-transform: uppercase
-    font-family: $montserrat
+    @include fontStyle( $montserrat, 17px, normal )
     letter-spacing: -1px
+    text-transform: uppercase
 
   em
-    font-size: 14px
-    font-family: $roboto
-    font-weight: light
+    @include fontStyle( $roboto, 14px, light, #b3b3b3 )
     font-style: italic
-    color: #b3b3b3 
 
 
 

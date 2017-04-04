@@ -22,17 +22,20 @@ hr {
 
 p {
   font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
   color: #999;
-  font-size: 16px; }
+  color: #999; }
 
 /*__NAVBAR STYLING__ */
 nav {
   height: 100px;
   margin-bottom: 115px; }
   nav .nav-logo {
-    font-size: 30px;
     font-family: Montserrat, sans-serif;
+    font-size: 30px;
     font-weight: bold;
+    color: false;
     margin-top: 25px;
     float: left; }
   nav .links {
@@ -129,6 +132,8 @@ header.page-header {
   .section-heading span {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
+    font-weight: normal;
+    color: false;
     margin-bottom: 15px; }
   .section-heading h2 {
     font-family: Montserrat, sans-serif;
@@ -220,6 +225,8 @@ header.page-header {
     .service-item .service-desc h2 {
       font-family: Montserrat, sans-serif;
       font-size: 16px;
+      font-weight: normal;
+      color: false;
       text-transform: uppercase;
       margin-bottom: 15px; }
 
@@ -284,6 +291,7 @@ header.page-header {
       font-family: Roboto, sans-serif;
       font-size: 22px;
       font-weight: light;
+      color: false;
       font-style: italic; }
     .testimonial .quote-block .message-icon {
       border: 3px solid #95e1d3;
@@ -295,6 +303,8 @@ header.page-header {
     .testimonial .quote-block cite {
       font-family: "Kaushan Script", cursive;
       font-size: 22px;
+      font-weight: normal;
+      color: false;
       margin-left: 10px; }
     .testimonial .quote-block .divider {
       margin: 15px 0 0 0;
@@ -340,16 +350,19 @@ header.page-header {
   text-align: center;
   margin-top: 28px; }
   .team-details h4 {
-    font-size: 17px;
-    text-transform: uppercase;
     font-family: Montserrat, sans-serif;
-    letter-spacing: -1px; }
+    font-size: 17px;
+    font-weight: normal;
+    color: false;
+    letter-spacing: -1px;
+    text-transform: uppercase; }
   .team-details em {
-    font-size: 14px;
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     font-weight: light;
-    font-style: italic;
-    color: #b3b3b3; }
+    color: #b3b3b3;
+    color: #b3b3b3;
+    font-style: italic; }
 
 @media only screen and (max-width: 767px) {
   .team {
@@ -410,9 +423,10 @@ header.page-header {
   .project-details h3 {
     font-family: Montserrat, sans-serif; }
   .project-details em {
-    font-size: 14px;
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     font-weight: light;
+    color: false;
     font-style: italic; }
 
 @media only screen and (max-width: 767px) {
@@ -434,13 +448,17 @@ header.page-header {
     float: left;
     margin: 0 28px 120px 0; }
   .clients .client-details {
-    margin-top: 8px;
-    font-size: 16px;
     font-family: Roboto, sans-serif;
-    color: #333; }
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    color: #333;
+    margin-top: 8px; }
     .clients .client-details h4 {
       font-family: Montserrat, sans-serif;
       font-size: 16px;
+      font-weight: normal;
+      color: false;
       text-transform: uppercase; }
     .clients .client-details em {
       font-weight: light;
@@ -469,12 +487,13 @@ header.page-header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: center;
-  font-family: Montserrat, sans-serif; }
+  text-align: center; }
   .map h2 {
-    color: #f38181;
+    font-family: Montserrat, sans-serif;
     font-size: 24px;
     font-weight: bold;
+    color: #f38181;
+    color: #f38181;
     text-transform: uppercase;
     margin: 12px auto 18px auto; }
   .map .divider {
@@ -646,15 +665,17 @@ input.email {
 
 button.subscribe {
   font-family: Montserrat, sans-serif;
-  position: relative;
-  left: -6px;
-  top: -1px;
-  background-color: #95e1d3;
-  border: none;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
   color: #fff;
   width: 145px;
   height: 35px;
-  font-size: 14px;
+  position: relative;
+  left: -6px;
+  top: -1px;
+  border: none;
+  background-color: #95e1d3;
   text-transform: uppercase; }
   button.subscribe:hover {
     cursor: pointer;
@@ -694,12 +715,14 @@ button.subscribe {
       font-family: Montserrat, sans-serif;
       font-size: 30px;
       font-weight: bold;
+      color: false;
       margin-bottom: -7px; }
     .blogs .blog-date span:last-child {
       font-family: Roboto, sans-serif;
       font-size: 16px;
-      font-style: italic;
-      font-weight: light; }
+      font-weight: light;
+      color: false;
+      font-style: italic; }
 .blogs .blog-details {
   color: #333;
   margin-top: -55px;
@@ -773,11 +796,12 @@ button.subscribe {
       -webkit-filter: grayscale(1);
       filter: grayscale(1); }
   .instagram-links a {
-    color: #333;
     font-family: Roboto, sans-serif;
-    font-weight: light;
-    font-style: italic;
     font-size: 14px;
+    font-weight: light;
+    color: #333;
+    color: #333;
+    font-style: italic;
     text-align: left; }
     .instagram-links a:hover {
       text-decoration: underline; }

@@ -12,11 +12,11 @@
     
   .images-container,
   .overlay
-    +dimensions( 480px, 390px )
+    @include dimensions( 480px, 390px )
 
   .images-container.long,
   .overlay.long
-    +dimensions( 480px, 780px )
+    @include dimensions( 480px, 780px )
 
 
   img    
@@ -37,16 +37,14 @@
   color: #fff
 
   img
-    +dimensions( 30px, 30px )
+    @include dimensions( 30px, 30px )
     margin-bottom: 5px
   
   h3
     font-family: $montserrat
 
   em
-    font-size: 14px
-    font-family: $roboto
-    font-weight: light
+    @include fontStyle( $roboto, 14px, light )
     font-style: italic
 
 
@@ -54,7 +52,5 @@
 
 @media only screen and (max-width: 767px)
 
-  .portfolio
-
-    .images-container
-      margin: 0 auto
+  .portfolio .images-container
+    margin: 0 auto

@@ -4,7 +4,7 @@
   width: 260px
 
   img
-    +dimensions( 80px, 80px )
+    @include dimensions( 80px, 80px )
     padding-bottom: 4px
     transition: all 0.2s
 
@@ -12,11 +12,8 @@
       filter: grayscale(1)
   
   a
-    color: $black
-    font-family: $roboto
-    font-weight: light
+    @include fontStyle( $roboto, 14px, light, $black )
     font-style: italic
-    font-size: 14px
     text-align: left
 
     &:hover

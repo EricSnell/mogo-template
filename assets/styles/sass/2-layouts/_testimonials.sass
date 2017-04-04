@@ -13,9 +13,7 @@
       border-left: none
 
     p
-      font-family: $roboto
-      font-size: 22px
-      font-weight: light
+      @include fontStyle( $roboto, 22px, light )
       font-style: italic
 
     .message-icon
@@ -27,8 +25,7 @@
       margin: 0 40px 80px 0
 
     cite
-      font-family: $kaushan
-      font-size: 22px
+      @include fontStyle( $kaushan, 22px, normal )
       margin-left: 10px
 
     .divider

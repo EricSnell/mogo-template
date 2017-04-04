@@ -17,14 +17,12 @@
     
 
   .client-details
+    @include fontStyle( $roboto, 16px, normal, $black )
     margin-top: 8px
-    font-size: 16px 
-    font-family: $roboto
-    color: $black
+
 
     h4
-      font-family: $montserrat
-      font-size: 16px
+      @include fontStyle( $montserrat, 16px, normal )
       text-transform: uppercase
 
     em

@@ -2,14 +2,11 @@
 
 .map
   height: 195px
-  +background(url('../../img/bg/map-bg.jpg'))
+  @include background(url('../../img/bg/map-bg.jpg'))
   text-align: center
-  font-family: $montserrat
 
   h2
-    color: $brand-red
-    font-size: 24px
-    font-weight: bold
+    @include fontStyle( $montserrat, 24px, bold, $brand-red )
     text-transform: uppercase
     margin: 12px auto 18px auto
 
