@@ -56,6 +56,9 @@ nav {
   nav .search {
     margin-right: 0; }
 
+@media only screen and (max-width: 767px) {
+  nav {
+    display: none; } }
 /*__HERO SECTION__ */
 header.page-header {
   height: 1000px;
@@ -101,7 +104,8 @@ header.page-header {
 
 @media only screen and (max-width: 767px) {
   header.page-header {
-    height: 780px; }
+    height: 580px;
+    padding-top: 20px; }
     header.page-header .welcome-text span {
       font-size: 60px; }
     header.page-header .welcome-text h1 {
