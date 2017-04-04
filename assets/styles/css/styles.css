@@ -114,7 +114,7 @@ header.page-header {
       display: none; } }
 @media only screen and (max-width: 575px) {
   header.page-header {
-    height: 600px; }
+    height: 370px; }
     header.page-header .welcome-text span {
       font-size: 30px; }
     header.page-header .welcome-text h1 {
