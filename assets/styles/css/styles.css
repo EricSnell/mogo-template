@@ -59,6 +59,7 @@ nav {
   nav .search {
     margin-right: 0; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   nav {
     display: none; } }
@@ -105,6 +106,7 @@ header.page-header {
   .section-links li:last-child a {
     margin-right: 0; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   header.page-header {
     height: 580px;
@@ -115,6 +117,7 @@ header.page-header {
       font-size: 90px; }
     header.page-header .section-links {
       display: none; } }
+/*___Mobile Display___ */
 @media only screen and (max-width: 575px) {
   header.page-header {
     height: 370px; }
@@ -165,6 +168,7 @@ header.page-header {
   max-width: 370px;
   max-height: 240px; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .about-us {
     margin-bottom: 60px; }
@@ -198,6 +202,7 @@ header.page-header {
   .stats .stat:last-child {
     border-right: none; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .stat {
     border-bottom: 1px solid #b5eae0; }
@@ -205,6 +210,7 @@ header.page-header {
       border-right: none; }
     .stat:nth-child(odd) {
       border-left: none; } }
+/*___Mobile Display___ */
 @media only screen and (max-width: 575px) {
   .stat {
     border-right: none;
@@ -230,9 +236,11 @@ header.page-header {
       text-transform: uppercase;
       margin-bottom: 15px; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .service-item:not(:last-child) {
     border-bottom: 1px solid #e5e5e5; } }
+/*___Mobile Display___ */
 @media only screen and (max-width: 575px) {
   .service-item .service-icon {
     display: block;
@@ -256,6 +264,7 @@ header.page-header {
     bottom: -170px;
     left: 56%; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 575px) {
   .devices-iphone {
     display: none; } }
@@ -271,6 +280,7 @@ header.page-header {
       top: 0;
       left: 0; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .details .images-container {
     margin-bottom: 30px; }
@@ -310,9 +320,11 @@ header.page-header {
       margin: 15px 0 0 0;
       display: inline-block; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .message-icon {
     display: none; } }
+/*___Mobile Display___ */
 @media only screen and (max-width: 575px) {
   .testimonial .quote-block {
     height: 100%; } }
@@ -364,6 +376,7 @@ header.page-header {
     color: #b3b3b3;
     font-style: italic; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .team {
     margin-bottom: 60px; }
@@ -429,6 +442,7 @@ header.page-header {
     color: false;
     font-style: italic; }
 
+/*____Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .portfolio .images-container {
     margin: 0 auto; } }
@@ -468,6 +482,7 @@ header.page-header {
       margin: 15px 0 13px;
       padding: 0; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .clients {
     padding-bottom: 0; } }
@@ -477,6 +492,7 @@ header.page-header {
   .blogs .section-heading {
     margin: 110px auto 45px; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .blogs {
     padding-bottom: 60px; } }
@@ -542,6 +558,7 @@ footer {
           footer .contact .contact-social-links li a:hover {
             color: #86c9bd; }
 
+/*___Mobile Display___ */
 @media only screen and (max-width: 575px) {
   footer .contact {
     margin-top: 20px; }
@@ -561,6 +578,7 @@ footer {
     background: #fff;
     color: #ccc; }
 
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .transparent-btn {
     width: 80%;
@@ -681,6 +699,7 @@ button.subscribe {
     cursor: pointer;
     background: #86c9bd; }
 
+/*___Mobile Display___ */
 @media only screen and (max-width: 575px) {
   input.email {
     width: 100%;
@@ -758,9 +777,11 @@ button.subscribe {
     margin-bottom: 48px; }
   .blogs .blog-date {
     left: 145px; } }
+/*___Tablet Display___ */
 @media only screen and (max-width: 767px) {
   .blogs .blog-date {
     left: 56px; } }
+/*___Mobile Display___ */
 @media only screen and (max-width: 575px) {
   .blogs .blog-date {
     left: 10%; } }
